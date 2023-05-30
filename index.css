@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body{
+    background: linear-gradient(rgb(8, 226, 150),rgb(19, 187, 234),rgb(225, 199, 9));
+  }
+.navbar{
+   background:rgba(0,0,0,0.7);
+   display: flex;
+   justify-content:space-between;
+   padding: 20px;
+   position: fixed;
+   width: 100%;
+   
+  }
+  .one{
+    display: inline; 
+    
+  }
+  a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+  }
+ #home{
+    padding: 200px 150px;
+    font-size: 50px;
+    
+  }
+  
+  button{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: none;
+    position: relative;
+    bottom: 180px;
+    border-radius: 80%;
+   
+  }
+  img{
+    position: relative;
+     left:700px; 
+     bottom: 180px;
+     border-radius: 50%;
+     width: 200px;
+     box-shadow: 5px 5px 25px rgb(32, 31, 31);
+  }
+ #about h1{
+  padding: 100px;
+  font-size: 50px;
+  color: black;
+ }
+ #about p{
+  padding-left: 50px;
+  font-size: 30px;
+  text-align:center;
+  line-height: 50px;
+  color: black;
+ }
+ #skills{
+  font-size: 40px;
+ }
+ .aboutsection{
+  padding: 0px 100px 100px 100px;
+ }
+ .skillsection{
+  padding:230px 100px;
+  text-align: center;
+ }
+ .skillsection h1{
+  text-align: left;
+  padding-left: 50px;
+ }
+ 
+ #contact{
+  padding: 200px 200px;
+  font-size: 40px;
+  
+ }
+ form{
+  font-weight: bold;
+        border: 3px solid black;
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 10px 10px 10px black;
+        text-align: center;
+ }
+ 
+
+ button:hover{
+  transform: scale(0.7);
+  background-color: rgb(222, 216, 223);
+  color: black;
+  transition:all 1s;
+  animation: new 1s 1;
+  animation-fill-mode: backwards;
+ }
+ .skillsection i:hover{
+  transform: scale(1.4);
+  transition: all 1s;
+ }
+ 
+ a:hover{
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  
+ }
+
+ @keyframes new{
+  0%{
+    transform:translateX(20px);
+    
+  }
+  25%{
+    transform: translateX(30px);
+  }
+  100%{
+    transform:translateX(70px);
+  }
+ }
+ .icon{
+  padding: 30px;
+  position: relative;
+  bottom: 20px;
+ }
+ .fa-facebook:hover{
+  transform: scale(1.4);
+  color:rgb(10, 146, 204) ;
+ }
+ .fa-twitter:hover{
+  transform: scale(1.4);
+  color:rgb(10, 146, 204) ;
+ }
+ .fa-instagram:hover{
+  transform: scale(1.4);
+  color: rgb(234, 14, 102);
+ }
+ .fa-linkedin:hover{
+  transform: scale(1.4);
+  color:rgb(10, 146, 204) ;
+ }
+ .fa-envelope:hover{
+  color: rgb(234, 14, 102);
+  transform: scale(1.4);
+ }
